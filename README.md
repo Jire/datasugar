@@ -7,6 +7,12 @@ _high-performance persisted data - made sweet - for the JVM_
 [![CI Status](https://github.com/Jire/datasugar/workflows/ci/badge.svg)](https://github.com/Jire/datasugar/actions?query=workflow%3Aci)
 [![License](https://img.shields.io/github/license/Jire/datasugar.svg)](https://github.com/Jire/datasugar/blob/master/LICENSE.txt)
 
+`datasugar` is a sweet & simple library that can acts as a layer between your primary storage and applications.
+Underneath the hood, `datasugar` uses memory-mapped files (virtual memory) to provide a persisted data map with
+system-memory level write/read times. All data is persisted to disk by your kernel, and is safe in the event something
+goes wrong, such as an application crash. A single `datasugar` directory can be safely used concurrently by a multitude
+of processes on the same machine.
+
 ---
 
 ### Define your database
