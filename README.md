@@ -2,6 +2,8 @@
 
 _high-performance persisted data - made sweet - for the JVM_
 
+<img src="https://i.imgur.com/NQygZwr.png" />
+
 [![CI Status](https://github.com/Jire/datasugar/workflows/ci/badge.svg)](https://github.com/Jire/datasugar/actions?query=workflow%3Aci)
 [![License](https://img.shields.io/github/license/Jire/datasugar.svg)](https://github.com/Jire/datasugar/blob/master/LICENSE.txt)
 
