@@ -1,7 +1,7 @@
 package org.jire.datasugar
 
 import org.jire.datasugar.column.Column
-import org.jire.datasugar.column.IntColumnProvider
+import org.jire.datasugar.column.provider.IntColumnProvider
 
 abstract class Table(override val name: String) : Datasugar {
 	

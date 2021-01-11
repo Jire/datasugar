@@ -1,6 +1,7 @@
-package org.jire.datasugar.column
+package org.jire.datasugar.column.provider
 
 import org.jire.datasugar.Table
+import org.jire.datasugar.column.IntColumn
 import kotlin.reflect.KProperty
 
 open class IntColumnProvider(
